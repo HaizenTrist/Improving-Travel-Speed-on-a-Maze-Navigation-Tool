@@ -1,5 +1,5 @@
 # A Star Pathfinder
-Implementation of the A* Star pathfinding algorithm using PyGame for visualization, controls in file.
+Implementation of the A* Star pathfinding algorithm using PyGame for visualization.
 
 #### Controls
 - Left Click: Place block
