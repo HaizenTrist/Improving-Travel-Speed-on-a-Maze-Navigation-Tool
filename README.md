@@ -7,6 +7,8 @@ Efficiently finds optimal paths, discarding less efficient routes and saving on 
 
 A basic visualization of the algorithm's operation and the ability to edit start/goal/obstacle markers is provided using the PyGame library.
 
+[example_1.webm](https://github.com/HaizenTrist/A-Star-Pathfinder/assets/123991082/ecd61fe8-013a-4621-8d37-7f1b0aecb3f3)
+
 #### Controls
 - Left Click: Place block
 - Middle Click: Place Origin/Goal
