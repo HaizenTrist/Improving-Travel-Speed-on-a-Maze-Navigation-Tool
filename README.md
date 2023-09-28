@@ -1,5 +1,11 @@
-# A Star Pathfinder
-Implementation of the A* Star pathfinding algorithm using PyGame for an example GUI.
+# A* Search Algorithm
+Implementation of the A* path-search and traversal algorithm.
+
+Finds the shortest possible travel route on a grid from a given start to a defined destination while navigating around obstacles.
+
+Efficiently finds optimal paths, discarding less efficient routes and saving on execution time by using a Priority Queue and the Manhattan Distance heuristic.
+
+A basic visualization of the algorithm's operation and the ability to edit start/goal/obstacle markers is provided using the PyGame library.
 
 #### Controls
 - Left Click: Place block
@@ -7,5 +13,3 @@ Implementation of the A* Star pathfinding algorithm using PyGame for an example 
 - Right Click: Erase tile
 - Enter: Start pathing
 - Right Shift: Clear board
-
-The program will run after the origin and goal are placed then Enter is pressed. It will how a visualization of each tile being checked and the progress of the search. After a path is found, it will trace said path from the goal back to the origin.
