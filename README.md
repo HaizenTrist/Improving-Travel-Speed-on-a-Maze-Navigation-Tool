@@ -1,11 +1,9 @@
-# A* Search Algorithm
-Implementation of the A* path-search and traversal algorithm.
+# Improving Travel Speed on a Maze Navigation Tool
+Created a program to quickly navigate any maze and find the shortest path to a destination using Python and the A-Star Search algorithm, running at least 3 times faster than basic path search methods.
 
-Finds the shortest possible travel route on a grid from a given start to a defined destination while navigating around obstacles.
+Further reduced search time by 20% by implementing intelligent path choice using a Priority Queue and the Manhattan Distance method.
 
-Efficiently finds optimal paths, discarding less efficient routes and saving on execution time by using a Priority Queue and the Manhattan Distance heuristic.
-
-A basic visualization of the algorithm's operation and the ability to edit start/goal/obstacle markers is provided using the PyGame library.
+A basic visualization of the algorithm's operation is provided below. The ability to edit start/goal/obstacle markers was added using the PyGame library.
 
 ![example.gif](https://github.com/HaizenTrist/A-Star-Pathfinder/assets/123991082/bfc258e4-7509-48eb-b687-eba5ddd721c0)
 
